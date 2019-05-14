@@ -1,0 +1,5 @@
+<div class="counter-detail">
+  <p>{{ counter.value }}</p>
+  <button class='increment' (click)='increment()'>+</button>
+  <button *ngIf="counter.value > 0" (click)='decrement()'>-</button>
+</div>
